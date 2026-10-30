@@ -1,0 +1,1 @@
+Put your own photo in this folder and name it me.jpg. The HTML expects images/me.jpg.

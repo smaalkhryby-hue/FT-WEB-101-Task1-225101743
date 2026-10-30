@@ -1,61 +1,74 @@
-<!-- Name: YOUR NAME HERE | Student ID: YOUR ID HERE -->
+<!--
+Student Name: sama waleed fouad elkhoriby
+Student ID: 225101743
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Name | Profile</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <nav class="bar">
-      <span class="bar-name">Your Name</span>
-      <ul class="bar-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header> 
+        <h1>SAMA Waleed Fouad Elkhoriby</h1>
+        <nav class="navbar">
+            <a class="brand" href="#home">SAMA</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#interests">Interests</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-  <main>
-    <section id="about">
-      <img src="images/me.jpg" alt="Portrait photo of Your Name" class="photo">
-      <div class="cards">
-        <article class="card">
-          <h2>Skills</h2>
-          <p>HTML, CSS, and JavaScript basics.</p>
-        </article>
-        <article class="card">
-          <h2>Hobbies</h2>
-          <p>Reading, football, and gaming.</p>
-        </article>
-        <article class="card">
-          <h2>Goals</h2>
-          <p>Become a great web developer.</p>
-        </article>
-      </div>
-    </section>
+    <main id="home">
+             <section class="intro" id="about">
+            <p>Hello! Welcome to my profile page. I am a Computer Science student who enjoys learning new things.</p>
+            <img class="profile-photo" src="images/me.jpg" alt="A photo of me">
+        </section>
 
-    <section id="contact">
-      <h2>Leave your details</h2>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
+        <section class="interests" id="interests">
+            <h2>My Interests</h2>
+            <div class="card-row">
+                <article class="card">
+                    <h3>Skills</h3>
+                    <p>HTML, CSS, and beginner JavaScript.</p>
+                </article>
+                <article class="card">
+                    <h3>Hobbies</h3>
+                    <p>Reading, listening to music, and learning.</p>
+                </article>
+                <article class="card">
+                    <h3>Goals</h3>
+                    <p>Building useful projects and improving my coding skills.</p>
+                </article>
+            </div>
+        </section>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-      </form>
-    </section>
+        <section class="contact" id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
 
-    <button id="theme-btn" type="button">Toggle dark mode</button>
-  </main>
+        <button type="button" id="theme-button">Switch to Dark Mode</button>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Your Name. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2026 SAMA Waleed Fouad Elkhoriby. All rights reserved.</p>
+    </footer>
 
-  <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
